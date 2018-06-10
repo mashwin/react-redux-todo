@@ -1,6 +1,9 @@
 ## React Redux Todo Application
 This application uses bootstrap 4 css framework i.e. reactstrap. It does state management with redux, but doesn't use database backend. Best example to learn CRUD operations using react and redux.
 
+The application has been deployed here:
+http://react-redux-todo.s3-website.ap-south-1.amazonaws.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
