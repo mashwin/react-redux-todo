@@ -9,7 +9,6 @@ import {
     toggleTodoModal, updateCurrentTodoId,
     updateModifiedText, updateTodo
 } from '../actions';
-import { Modal } from 'reactstrap';
 
 class App extends Component {
 
@@ -45,12 +44,10 @@ class App extends Component {
 
     updateTodo = () => {
         this.props.updateTodo();
+        this.props.toggleTodoModal();
     }
 
     render() {
-        {
-            console.log(this.props.modifiedText)
-        }
         return (
             <div>
                 <AppHeader />

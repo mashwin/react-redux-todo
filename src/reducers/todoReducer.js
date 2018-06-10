@@ -8,7 +8,7 @@ import {
 } from "../constants";
 
 export function todoReducer(state = {
-    todos: [{ id: 1, text: 'Go for walk' }],
+    todos: [{ id: 1, text: 'Go for walk' }, { id: 2, text: 'Get Milk' }, { id: 3, text: 'Have Breakfast' }],
     currentTodoText: '',
     showUpdateTodoModal: false,
     currentTodo: '',

@@ -2,8 +2,7 @@ import React from 'react';
 import {
     Button, Modal,
     ModalHeader, ModalBody,
-    ModalFooter, InputGroup,
-    InputGroupText, InputGroupAddon, Input
+    ModalFooter, Input
 } from 'reactstrap';
 
 const UpdateTodo = ({ currentTodo, handleModifiedTextChange, showUpdateTodoModal, showHideTodoModal, updateTodo }) => (
